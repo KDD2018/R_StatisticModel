@@ -1,0 +1,26 @@
+Holt-Winters exponential smoothing with trend and multiplicative seasonal component.
+
+Call:
+HoltWinters(x = AirPassengers, seasonal = "mult")
+
+Smoothing parameters:
+ alpha: 0.2755925
+ beta : 0.03269295
+ gamma: 0.8707292
+
+Coefficients:
+           [,1]
+a   469.3232206
+b     3.0215391
+s1    0.9464611
+s2    0.8829239
+s3    0.9717369
+s4    1.0304825
+s5    1.0476884
+s6    1.1805272
+s7    1.3590778
+s8    1.3331706
+s9    1.1083381
+s10   0.9868813
+s11   0.8361333
+s12   0.9209877
